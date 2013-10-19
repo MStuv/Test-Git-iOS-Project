@@ -21,6 +21,7 @@
 		C13683CD1812224E00A0A5AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13683AF1812224D00A0A5AE /* UIKit.framework */; };
 		C13683D51812224E00A0A5AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C13683D31812224E00A0A5AE /* InfoPlist.strings */; };
 		C13683D71812224E00A0A5AE /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13683D61812224E00A0A5AE /* Git_TestTests.m */; };
+		C13683E218123F0200A0A5AE /* MASTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C13683E118123F0200A0A5AE /* MASTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C13683D21812224E00A0A5AE /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		C13683D41812224E00A0A5AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C13683D61812224E00A0A5AE /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		C13683E018123F0200A0A5AE /* MASTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MASTest.h; path = ../MASTest.h; sourceTree = "<group>"; };
+		C13683E118123F0200A0A5AE /* MASTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MASTest.m; path = ../MASTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		C13683B11812224D00A0A5AE /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				C13683E018123F0200A0A5AE /* MASTest.h */,
+				C13683E118123F0200A0A5AE /* MASTest.m */,
 				C13683BA1812224D00A0A5AE /* MASAppDelegate.h */,
 				C13683BB1812224D00A0A5AE /* MASAppDelegate.m */,
 				C13683BD1812224D00A0A5AE /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C13683C21812224D00A0A5AE /* MASViewController.m in Sources */,
+				C13683E218123F0200A0A5AE /* MASTest.m in Sources */,
 				C13683BC1812224D00A0A5AE /* MASAppDelegate.m in Sources */,
 				C13683B81812224D00A0A5AE /* main.m in Sources */,
 			);
